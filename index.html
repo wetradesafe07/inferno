@@ -74,15 +74,7 @@
             </li>
         </ul>
     </nav>
-    <!-- /Nav -->
 
-    <!-- Quote Success -->
-        <!-- /Quote Success -->
-
-    <!-- Message Success -->
-        <!-- /Message Success -->
-
-    <!-- Header -->
     <header>
         <div class="container">
             <div class="row">
@@ -112,81 +104,10 @@
                     <br>
                     <p>By ordering an inferno cape you agree to the terms of service as described <a
                             href="terms/index.html">here</a>.</p>
-                    <!-- <br><br>
-                        <href="https://discord.gg/W9xwFHD" target="_blank" class="btn btn--inferno">Join Discord</a>
-                    <br><br><br> -->
-                    <!-- <h2>Send us your stats</h2> -->
+
                     <br><br>
                 </div>
             </div>
-            <!-- <div class="row wow fadeInUp">
-                <form action="https://formspree.io/mwkreeap" method="post">
-                    <div class="col-lg-3">
-                        <span>Discord Name:</span><br>
-                        <input type="text" name="name" required><br>
-                        <span>Region:</span><br>
-                        <label>
-                            <input type="radio" name="region" value="North America" checked>
-                            <img src="src/img/assets/na.png" class="flag">
-                        </label>
-                        <label>
-                            <input type="radio" name="region" value="Europe">
-                            <img src="src/img/assets/eu.png" class="flag">
-                        </label><br><br>
-                        <span>Upload Speed (<a href="https://www.speedtest.net/" target="_blank">Check Here</a>):</span> <br><select
-                            name="upload" required>
-                            <option value="1-5">1-5</option>
-                            <option value="5-10">5-10</option>
-                            <option value="10-20">10-20</option>
-                            <option value="20-30">20-30</option>
-                            <option value="30+">30+</option>
-                        </select><br>
-                        <span>System:</span> <br><select name="system" required>
-                            <option value="Windows 10">Windows 10</option>
-                            <option value="Windows 8 / 8.1">Windows 8 / 8.1</option>
-                            <option value="Windows 7">Windows 7</option>
-                        </select><br>
-                        <span>Weapon:</span><br>
-                        <label>
-                            <input type="radio" name="weapon" value="Twisted Bow" alt="Twisted Bow" title="Twisted Bow"
-                                checked>
-                            <img src="src/img/assets/tbow.png" class="weapon">
-                        </label>
-                        <label>
-                            <input type="radio" name="weapon" value="Armadyl Crossbow" alt="Armadyl Crossbow"
-                                title="Armadyl Crossbow">
-                            <img src="src/img/assets/acb.png" class="weapon">
-                        </label>
-                        <label>
-                            <input type="radio" name="weapon" value="Rune Crossbow" alt="Rune Crossbow"
-                                title="Rune Crossbow">
-                            <img src="src/img/assets/rcb.png" class="weapon">
-                        </label>
-                        <br><br>
-                        <span>Rigour:</span><br> <select name="rigour" required>
-                            <option value="Yes">Yes</option>
-                            <option value="No">No</option>
-                        </select>
-                    </div>
-                    <div class="col-lg-3">
-                        <img src="src/img/assets/range_icon.png" class="icon" /><span> Ranged Level:</span><br>
-                        <input type="text" name="range" required><br>
-                        <img src="src/img/assets/magic_icon.png" class="icon" /><span> Magic Level:</span><br>
-                        <input type="text" name="mage" required><br>
-                        <img src="src/img/assets/def_icon.png" class="icon" /><span> Defence Level:</span><br>
-                        <input type="text" name="def" required><br>
-                        <img src="src/img/assets/prayer_icon.png" class="icon" /><span> Prayer Level:</span><br>
-                        <input type="text" name="pray" required><br>
-                        <img src="src/img/assets/hitpoints_icon.png" class="icon" /><span> Hitpoints Level:</span><br>
-                        <input type="text" name="hitpoints" required>
-                    </div>
-            </div>
-            <div class="row wow fadeInUp">
-                <div class="col-lg-12">
-                    <br>
-                </form>
-                <br><br>
-                <!-- <button onclick="copyFormData()" value="Send to LiveChat" class="btn btn--inferno">Send to LiveChat</button> Submit form data into livechat if online -->
                 </div>
                 </div>
         </div>
@@ -395,10 +316,9 @@
                     <div class="row wow fadeInUp">
                         <div class="col-lg-12">
                             <br>
-                            <input type="submit" value="Send Offline" class="btn btn--inferno"> <!-- Submit PHP if livechat offline -->
+                            <input type="submit" value="Send" class="btn btn--inferno"> 
                         </form>
                         <br><br>
-                        <!-- <button onclick="copyFormData()" value="Send to LiveChat" class="btn btn--inferno">Send to LiveChat</button> Submit form data into livechat if online -->
                         </div>
                     </div>
                     </form>
@@ -406,9 +326,7 @@
             </div>
         </div>
     </section>
-    <!-- /Contact -->
 
-    <!-- Footer -->
     <footer>
         <div class="container">
             <div class="row">
@@ -422,7 +340,6 @@
             </div>
         </div>
     </footer>
-    <!-- /Footer -->
 
 </body>
 
@@ -472,60 +389,6 @@
     }
 </script>
 <!-- /Clear GET -->
-
-<!-- Send form data to livechat -->
-<!-- <script>
-    function copyFormData() {
-        var form = document.getElementById('quote');
-        $discordname = form.elements.name.value;
-        $region = form.elements.region.value;
-        $upload = form.elements.upload.value;
-        $system = form.elements.system.value;
-        $weapon = form.elements.weapon.value;
-        $rigour = form.elements.rigour.value;
-        $range = form.elements.range.value;
-        $mage = form.elements.mage.value;
-        $def = form.elements.def.value;
-        $pray = form.elements.pray.value;
-        $hitpoints = form.elements.hitpoints.value;
-
-              zE('webWidget', 'open');
-              zE('webWidget', 'chat:send', 
-              "Discord Name: " + $discordname
-              );
-              zE('webWidget', 'chat:send', 
-              "Region: " + $region
-              );
-              zE('webWidget', 'chat:send', 
-              "Upload: " + $upload
-              );
-              zE('webWidget', 'chat:send', 
-              "System: " + $system
-              );
-              zE('webWidget', 'chat:send', 
-              "Weapon: " + $weapon
-              );
-              zE('webWidget', 'chat:send', 
-              "Rigour: " + $rigour
-              );
-              zE('webWidget', 'chat:send', 
-              "Ranged level: " + $range
-              );
-              zE('webWidget', 'chat:send', 
-              "Magic level: " + $mage
-              );
-              zE('webWidget', 'chat:send', 
-              "Defence level: " + $def
-              );
-              zE('webWidget', 'chat:send', 
-              "Prayer level: " + $pray
-              );
-              zE('webWidget', 'chat:send', 
-              "HP level: " + $hitpoints
-              );
-    }
-</script> -->
-<!-- /Send form data to livechat -->
 
 
 </html>
