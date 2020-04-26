@@ -166,12 +166,12 @@ body::-webkit-scrollbar {
 }
 
 body::-webkit-scrollbar-thumb {
-    background: #ad0000;
-    border: 1px solid red
+    background: rgb(219, 92, 18);
+    border: 1px solid rgb(219, 92, 18)
 }
 
 body::-webkit-scrollbar-track {
-    background: #111
+    background: rgb(255, 255, 255)
 }
 
 ::-moz-selection {
@@ -2350,7 +2350,7 @@ section#contact label {
 }
 
 section#terms {
-    padding-top: 5vh
+    padding-top: 10vh
 }
 
 footer {
