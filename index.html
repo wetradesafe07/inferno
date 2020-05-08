@@ -249,7 +249,9 @@ If there is nobody online to answer the livechat, please fill in the form, we wi
                             <input type="radio" name="region" value="Europe">
                             <img src="src/img/assets/eu.png" class="flag" style="zoom: 60%;" alt="europe flag, use this if you live there, important">
                         </label><br><br>
-                        <span>Upload Speed (<a href="https://www.speedtest.net/" target="_blank" rel="noreferrer">Check Here</a>):</span> <br><select
+                        <span>Upload Speed (<a href="https://www.speedtest.net/" target="_blank" rel="noreferrer">Check Here</a>):</span> <br>
+                        <label></label>
+                        <select
                             name="upload" required>
                             <option value="1-5">1-5</option>
                             <option value="5-10">5-10</option>
@@ -257,7 +259,8 @@ If there is nobody online to answer the livechat, please fill in the form, we wi
                             <option value="20-30">20-30</option>
                             <option value="30+">30+</option>
                         </select><br>
-                        <span>System:</span> <br><select name="system" required>
+                        
+                        <span>System:</span> <br><label></label><select name="system" required>
                             <option value="Windows 10">Windows 10</option>
                             <option value="Windows 8 / 8.1">Windows 8 / 8.1</option>
                             <option value="Windows 7">Windows 7</option>
@@ -279,7 +282,7 @@ If there is nobody online to answer the livechat, please fill in the form, we wi
                             <img src="src/img/assets/rcb.png" class="weapon" alt="Image of a Rune Crossbow, From Oldschool Runescape!">
                         </label>
                         <br><br>
-                        <span>Rigour:</span><br> <select name="rigour" required>
+                        <span>Rigour:</span><br> <label></label><select name="rigour" required>
                             <option value="Yes">Yes</option>
                             <option value="No">No</option>
                         </select>
@@ -287,15 +290,19 @@ If there is nobody online to answer the livechat, please fill in the form, we wi
 
                     <!-- </div> -->
                     <span>Skill Levels:</span><br><br>
-                        <label>
+                    <label><label></label>
                         <img src="src/img/assets/range_icon.png" class="icon" alt="Image of the ranged skill, give your level in the input"/> 
                         <input type="text" name="range"  style="width: 20px; height: 10px;" maxlength="2" required>
+                        <label></label>
                         <img src="src/img/assets/magic_icon.png" class="icon" alt="Image of the magic skill, give your level in the input" />
                         <input type="text" name="mage"  style="width: 20px; height: 10px;" maxlength="2" required>
+                        <label></label>
                         <img src="src/img/assets/def_icon.png" class="icon" alt="Image of the defence skill, give your level in the input" />
                         <input type="text" name="def"  style="width: 20px; height: 10px;" maxlength="2" required>
+                        <label></label>
                         <img src="src/img/assets/prayer_icon.png" class="icon" alt="Image of the prayer skill, give your level in the input"/>
                         <input type="text" name="pray"  style="width: 20px; height: 10px;" maxlength="2" required>
+                        <label></label>
                         <img src="src/img/assets/hitpoints_icon.png" class="icon" alt="Image of the hitpoints skill, give your level"/>
                         <input type="text" name="hitpoints"  style="width: 20px; height: 10px;" maxlength="2" required>
                         </label>
