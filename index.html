@@ -41,19 +41,12 @@
     <!-- Zendesk Widget script -->
     </script>
 </head>
-<!--Start of Tawk.to Script-->
-<script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/5ea537cd35bcbb0c9ab4bb2a/default';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
-    })();
-    </script>
-    <!--End of Tawk.to Script-->
+<!-- Start of infernalcapeservice Zendesk Widget script -->
+<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=ef718440-bd16-4790-ab92-78b0271131c0"> $zopim(function() {
+    $zopim.livechat.hideAll();
+ });</script>
+<!-- End of infernalcapeservice Zendesk Widget script -->
+
 <body id="top">
 
     <!-- Nav -->
@@ -234,8 +227,16 @@ If there is nobody online to answer the livechat, please fill in the form, we wi
                 <div class="col-lg-6 wow fadeInUp">
                     <h1>Contact</h1>
                     <br>
-                    <p>In order to contact us either contact the Live Chat support, or fill in this form. If the live chat is offline, we will contact you through Discord <span>ASAP</span>.
-                    </p><br>
+                    <p>Using the button below, you can contact us. Please make sure you prove the following information:</p>
+                    <br>
+                    <p>- Name</p>
+                    <p>- Country of residence</p>
+                    <p>- Upload speed (use speedtest.net) </p>
+                    <p>- Operating System</p>
+                    <p>- Pictures of your gear/bank</p>
+                    <p>- Unlocked prayers</p>
+                    <p>- Skill levels for <b>Ranged, Magic, Defence, Prayer and Hitpoints</b></p>
+                        <!-- </p><br>
                     <br><br>
                     <form action="https://formspree.io/mwkreeap" method="post">
                         <span>Discord Name:</span> <br><input type="text" name="name" required><br>
@@ -286,11 +287,10 @@ If there is nobody online to answer the livechat, please fill in the form, we wi
                             <option value="Yes">Yes</option>
                             <option value="No">No</option>
                         </select>
-                        <br><br>
+                        <br><br> -->
 
                     <!-- </div> -->
-                    <span>Skill Levels:</span><br><br>
-                   <label></label>
+                   <!-- <label></label>
                         <img src="src/img/assets/range_icon.png" class="icon" alt="Image of the ranged skill, give your level in the input"/> 
                         <input type="text" name="range"  style="width: 20px; height: 10px;" maxlength="2" required>
                         <label></label>
@@ -305,18 +305,18 @@ If there is nobody online to answer the livechat, please fill in the form, we wi
                         <label></label>
                         <img src="src/img/assets/hitpoints_icon.png" class="icon" alt="Image of the hitpoints skill, give your level"/>
                         <input type="text" name="hitpoints"  style="width: 20px; height: 10px;" maxlength="2" required>
-                     
+                   -->
             
                     <div class="row wow fadeInUp">
                         <div class="col-lg-12">
                             <br>
-                            <input type="submit" value="Send" class="btn btn--inferno"> 
-                        </form>
+                            <a href="javascript:void(0);" id="showWidget" onclick="zE.activate({hideOnClose: true});
+                            "><input type="submit" value="Open the livechat!" class="btn btn--inferno"></a>
                         <br><br>
                         </div>
                     </div>
-                    </form>
-                </div>
+                    <!-- </form>
+                </div>  -->
             </div>
         </div>
     </section>
