@@ -41,8 +41,22 @@
     <!-- Zendesk Widget script -->
     </script>
 </head>
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/5ea5764269e9320caac76d25/default';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    </script>
+    <!--End of Tawk.to Script-->
+    <!--End of Tawk.to Script-->
 <!-- Start of infernalcapeservice Zendesk Widget script -->
-<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=ef718440-bd16-4790-ab92-78b0271131c0"> </script>
+<!-- <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=ef718440-bd16-4790-ab92-78b0271131c0"> </script> -->
 <!-- End of infernalcapeservice Zendesk Widget script -->
 <body id="top" data-gr-c-s-loaded="true">
 
@@ -421,8 +435,11 @@ then slowly started expanding the business.               By ordering an inferno
                                 <input type="submit" value="Send Offline" class="btn btn--inferno"> <!-- Submit PHP if livechat offline -->
                             </form>
                             <br><br>
-                            <button type="button" onclick="copyFormData()" value="Send to LiveChat" class="btn btn--inferno">Send to LiveChat</button> <!-- Submit form data into livechat if online -->
-                            </div>
+                            <!-- <button type="button" onclick="copyFormData()" value="Send to LiveChat" class="btn btn--inferno">Send to LiveChat</button> Submit form data into livechat if online -->
+                            <!-- <div id="clip"> </div>
+                            <button type="button"  data-clipboard-target="#clip" value="Copy to clipboard" class="copy">Copy to clipboard</button> <!-- Submit form data into livechat if online -->
+                            </div> 
+                            <!-- <p id="clip"></p> -->
                         </div>
                     </div>
                     <!-- <div class="row wow fadeInUp">
@@ -450,7 +467,23 @@ then slowly started expanding the business.               By ordering an inferno
             </div>
         </div>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.0/clipboard.min.js"></script>
+    <script>
+$(document).on('click', '.copy', function(e) {
+  var serialized = $(this.form).serializeArray()
+  var text = serialized.map(function(field) {
+    return field.value
+  }).join(",")
 
+  $("#copy").show().val(text)[0].select();
+  document.execCommand("copy");
+  $("#copy").hide();
+  alert("Copied the form: " + text);
+
+  return false
+
+})
+        </script>
 </body>
 
 <script>
