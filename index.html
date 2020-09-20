@@ -432,7 +432,7 @@ then slowly started expanding the business.               By ordering an inferno
                         <div class="row wow fadeInUp">
                             <div class="col-lg-12">
                                 <br>
-                                <input type="submit" value="Send Offline" class="btn btn--inferno"> <!-- Submit PHP if livechat offline -->
+                                <input type="submit" value="Send Online" class="btn btn--inferno"> <!-- Submit PHP if livechat offline -->
                             </form>
                             <br><br>
                             <!-- <button type="button" onclick="copyFormData()" value="Send to LiveChat" class="btn btn--inferno">Send to LiveChat</button> Submit form data into livechat if online -->
@@ -503,7 +503,7 @@ $(document).on('click', '.copy', function(e) {
 
               zE('webWidget', 'open');
               zE('webWidget', 'chat:send', 
-              "Discord Name: " + $discordname
+              "Discord Name: (E.g. Name#1234)" + $discordname
               );
               zE('webWidget', 'chat:send', 
               "Region: " + $region
