@@ -43,21 +43,22 @@
 </head>
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
-    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    (function(){
-    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    s1.async=true;
-    s1.src='https://embed.tawk.to/5ea5764269e9320caac76d25/default';
-    s1.charset='UTF-8';
-    s1.setAttribute('crossorigin','*');
-    s0.parentNode.insertBefore(s1,s0);
-    })();
-    </script>
+    // var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    // (function(){
+    // var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    // s1.async=true;
+    // s1.src='https://embed.tawk.to/5ea5764269e9320caac76d25/default';
+    // s1.charset='UTF-8';
+    // s1.setAttribute('crossorigin','*');
+    // s0.parentNode.insertBefore(s1,s0);
+    // })();
+    // </script>
     <!--End of Tawk.to Script-->
     <!--End of Tawk.to Script-->
 <!-- Start of infernalcapeservice Zendesk Widget script -->
-<!-- <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=ef718440-bd16-4790-ab92-78b0271131c0"> </script> -->
-<!-- End of infernalcapeservice Zendesk Widget script -->
+<!-- Start of tradecape Zendesk Widget script -->
+<script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=6734eb06-dfd9-4ba9-99f1-a687d030dd69"> </script>
+<!-- End of tradecape Zendesk Widget script --><!-- End of infernalcapeservice Zendesk Widget script -->
 <body id="top" data-gr-c-s-loaded="true">
 
     <!-- Nav -->
@@ -129,11 +130,13 @@
                         <h3>Main Starter Account</h3>
                         <br>
                         <img src="src/img/assets/foto1.png" alt="account type 1 buy runescape account">
-
+                        <br>
+                        <button onclick="sendAccData('id-001')" class="btn btn--infernosmall">Send to livechat</button>
+                        <br><br>
                         <p>Combat Level 115</p>
                         <p>99 Attack | 99 Strength | 99 Defence</p>
 
-                        <p>$200 (USD)  </p>
+                        <p>400M  </p>
                         <br>
                         <h3>Quests completed</h3>
                         <p>Vampire Slayer</p>
@@ -148,11 +151,13 @@
                         <h3>Pure Starter Account</h3>
                         <br>
                         <img src="src/img/assets/foto2.png" alt="account type 2 buy runescape account">
-
+                        <br>
+                        <button onclick="sendAccData('id-002')" class="btn btn--infernosmall">Send to livechat</button>
+                        <br><br>
                         <p>Combat Level 71.85</p>
                         <p>40 Attack | 99 Strength | 1 Defence | 99 Ranged</p>
 
-                        <p>$100 (USD)  </p>
+                        <p>300M  </p>
                         <br>
                         <!-- <h3>Quests completed</h3>
                         <p>Vampire Slayer</p>
@@ -168,8 +173,11 @@
                         <br>
                         <img src="src/img/assets/foto3.png" alt="account type 1 buy runescape account">
                         <img src="src/img/assets/foto3gear.png" alt="account type 1 buy runescape account">
+                        <br>
+                        <button onclick="sendAccData('id-003')" class="btn btn--infernosmall">Send to livechat</button>
+                        <br><br>
                         <p>Combat Level 99</p>
-                        <p>$300 (USD)  </p>
+                        <p>500M </p>
                         <p>Fully Quested Med Level</p>
                         <br>
                         <h3>Features:</h3>
@@ -178,7 +186,7 @@
                         <p>Best med account for pking/pvming</p>
                         <hr>
                         <br><br><br>
-                        <h2 style="font-size: 2em;">Contact the live support if you wish to buy an account.</h2>
+                        <h2 style="font-size: 2em;">We have a large variety of accounts for sale. Click <a href="javascript:void(0);" onclick="sendAccData('a different account')" style="font-size: 1em; font-weight: bold"> here </a>  to contact livechat. </h2>
 
                     </div>
     
@@ -241,7 +249,7 @@ then slowly started expanding the business.               By ordering an inferno
                 <div class="col wow fadeInUp">
                     <h1>Setups</h1>
                     <br><br>
-                   <p> Have a look at the setups below for an idea what setups work. These setups have guaranteed success, but setups a little less expensive will most likely succeed.</p>
+                   <p> Have a look at the setups below for an idea what setups work.</p>
                 </div>
             </div>
             <br><br>
@@ -308,8 +316,7 @@ then slowly started expanding the business.               By ordering an inferno
                                 <h3>When do i pay?</h3>
                             </label>
                             <div class="tab-content">
-                                <p>Payment for inferno capes will be paid in the middle of the waves. This way you can
-                                    see your own cape being done.</p>
+                                <p>Payment for the infernal cape is made in 2 installments, 50% before we start and 50% after completion.</p>
                             </div>
                         </div>
                         <div class="tab">
@@ -359,7 +366,7 @@ then slowly started expanding the business.               By ordering an inferno
                     <p>- Skill levels for <b>Ranged, Magic, Defence, Prayer and Hitpoints</b></p>
                        </p><br> -->
                     <br><br>
-                    <form action="https://formspree.io/mwkreeap" method="post" id="quote" onsubmit="return">
+                    <form id="quote">
                         <span>Discord Name: (E.g. Name#1234)</span> <br><input type="text" name="name" required><br>
                         <label><span>Region:</span></label>
                         <label>
@@ -426,21 +433,21 @@ then slowly started expanding the business.               By ordering an inferno
                         <img src="src/img/assets/hitpoints_icon.png" class="icon" alt="Image of the hitpoints skill, give your level"/>
                         <input type="text" name="hitpoints"  style="width: 20px; height: 10px;" maxlength="2" required>
                         <br><br>
-                        <!-- <button onclick="copyFormData()" value="Send to LiveChat" class="btn btn--inferno">Send to LiveChat</button> Submit form data into livechat if online -->
+                        <button onclick="copyFormData()" value="Send to LiveChat" class="btn btn--inferno">Send to LiveChat</button> 
 
 
-                        <div class="row wow fadeInUp">
+                        <!-- <div class="row wow fadeInUp">
                             <div class="col-lg-12">
                                 <br>
                                 <input type="submit" value="Send Online" class="btn btn--inferno"> <!-- Submit PHP if livechat offline -->
                             </form>
-                            <br><br>
+                            <!-- <br><br> -->
                             <!-- <button type="button" onclick="copyFormData()" value="Send to LiveChat" class="btn btn--inferno">Send to LiveChat</button> Submit form data into livechat if online -->
                             <!-- <div id="clip"> </div>
                             <button type="button"  data-clipboard-target="#clip" value="Copy to clipboard" class="copy">Copy to clipboard</button> <!-- Submit form data into livechat if online -->
-                            </div> 
+                            <!-- </div>  -->
                             <!-- <p id="clip"></p> -->
-                        </div>
+                        <!-- </div>  -->
                     </div>
                     <!-- <div class="row wow fadeInUp">
                         <div class="col-lg-12">
@@ -503,37 +510,35 @@ $(document).on('click', '.copy', function(e) {
 
               zE('webWidget', 'open');
               zE('webWidget', 'chat:send', 
-              "Discord Name: (E.g. Name#1234)" + $discordname
+              "Discord Name: " + $discordname + 
+ 
+              "\n Region: " + $region + 
+
+              "\n Upload: " + $upload + 
+
+              "\n System: " + $system + 
+
+              "\n Weapon: " + $weapon + 
+
+              "\n Rigour: " + $rigour +
+
+              "\n Ranged level: " + $range + 
+
+              "\n Magic level: " + $mage + 
+
+              "\n Defence level: " + $def + 
+
+              "\n Prayer level: " + $pray + 
+
+              "\n HP level: " + $hitpoints
               );
+    }
+
+    function sendAccData(id_text) {
+     
+              zE('webWidget', 'open');
               zE('webWidget', 'chat:send', 
-              "Region: " + $region
-              );
-              zE('webWidget', 'chat:send', 
-              "Upload: " + $upload
-              );
-              zE('webWidget', 'chat:send', 
-              "System: " + $system
-              );
-              zE('webWidget', 'chat:send', 
-              "Weapon: " + $weapon
-              );
-              zE('webWidget', 'chat:send', 
-              "Rigour: " + $rigour
-              );
-              zE('webWidget', 'chat:send', 
-              "Ranged level: " + $range
-              );
-              zE('webWidget', 'chat:send', 
-              "Magic level: " + $mage
-              );
-              zE('webWidget', 'chat:send', 
-              "Defence level: " + $def
-              );
-              zE('webWidget', 'chat:send', 
-              "Prayer level: " + $pray
-              );
-              zE('webWidget', 'chat:send', 
-              "HP level: " + $hitpoints
+              "INFERNAL: Hi, I'm interested in " + id_text
               );
     }
 </script>
