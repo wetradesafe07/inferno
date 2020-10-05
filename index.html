@@ -42,22 +42,27 @@
     </script>
 </head>
 <!--Start of Tawk.to Script-->
-<script type="text/javascript">
-    // var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-    // (function(){
-    // var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-    // s1.async=true;
-    // s1.src='https://embed.tawk.to/5ea5764269e9320caac76d25/default';
-    // s1.charset='UTF-8';
-    // s1.setAttribute('crossorigin','*');
-    // s0.parentNode.insertBefore(s1,s0);
-    // })();
-    // </script>
+<!-- <script type="text/javascript">
+    var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+    (function(){
+    var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+    s1.async=true;
+    s1.src='https://embed.tawk.to/5ea5764269e9320caac76d25/default';
+    s1.charset='UTF-8';
+    s1.setAttribute('crossorigin','*');
+    s0.parentNode.insertBefore(s1,s0);
+    })();
+    // </script> -->
     <!--End of Tawk.to Script-->
     <!--End of Tawk.to Script-->
 <!-- Start of infernalcapeservice Zendesk Widget script -->
 <!-- Start of tradecape Zendesk Widget script -->
 <script id="ze-snippet" src="https://static.zdassets.com/ekr/snippet.js?key=6734eb06-dfd9-4ba9-99f1-a687d030dd69"> </script>
+<script type="text/javascript">
+    zE(function() {
+    zE.activate();
+    });
+    </script>
 <!-- End of tradecape Zendesk Widget script --><!-- End of infernalcapeservice Zendesk Widget script -->
 <body id="top" data-gr-c-s-loaded="true">
 
@@ -534,9 +539,11 @@ $(document).on('click', '.copy', function(e) {
               "\n HP level: " + $hitpoints
               );
     }
-
+//     Tawk_API.onOfflineSubmit = function(data){
+//     //place your code herequestio
+//     questions: [e]
+// };
     function sendAccData(id_text) {
-     
               zE('webWidget', 'open');
               zE('webWidget', 'chat:send', 
               "INFERNAL: Hi, I'm interested in " + id_text
