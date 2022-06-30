@@ -79,6 +79,7 @@ header {
     display: -ms-flexbox;
     display: flex;
 }
+
 .container {
     position: relative;
     margin-left: auto;
@@ -87,11 +88,15 @@ header {
     padding-left: 15px;
 }
 @media (min-width:576px) {
+
     .container {
     padding-right: 15px;
     padding-left: 15px;
 }
 }@media (min-width:768px) {
+    .counter {
+        display: none;
+    }
     .container {
     padding-right: 15px;
     padding-left: 15px;
@@ -1112,6 +1117,7 @@ header {
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, .5))), url(../img/banner/banner.png);
     background-image: linear-gradient(rgba(0, 0, 0, .5)), url(../img/banner/banner.png);
     background-size: 100vw 100vh;
+    /* object-fit: contain; */
     text-align: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
@@ -1200,6 +1206,9 @@ header a.btn {
     margin-right: 5px;
 }
 @media screen and (min-width:768px) {
+    .counter {
+        display: none;
+    }
     .navbar {
     display: -webkit-box;
     display: -ms-flexbox;
