@@ -1126,11 +1126,28 @@ header {
     -ms-flex-pack: center;
     justify-content: center;
 }
+#ext_btn {
+    display: none;
+}
+#int_btn {
+    display: block;
+}
 @media (max-width:37.5em) {
     header {
     height: 70vh;
     background-size: 100vw 70vh;
 }
+#ext_btn{
+    display:block;
+}
+#int_btn {
+    display: none;
+}
+#vid {
+    height: 16%;
+    width: 100%;
+}
+
 }header h1 {
     color: #efefef;
     text-shadow: 0 0 5px #111;
